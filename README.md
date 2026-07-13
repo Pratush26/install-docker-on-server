@@ -20,6 +20,10 @@ sudo systemctl enable docker
 ```
 docker --version
 ```
+or
+```
+sudo systemctl status docker
+```
 > You can also test docker _(optional)_
 ```
 sudo docker run hello-world
@@ -28,4 +32,15 @@ sudo docker run hello-world
 >> Hello from Docker!
 ```
 sudo docker run hello-world
+```
+### Further you can do this basic set-up
+> By default, Docker requires `sudo`.
+
+> Add your user to the docker group:
+```
+sudo usermod -aG docker $USER
+```
+```
+exit
+```
 ```
