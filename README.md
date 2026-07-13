@@ -1,4 +1,4 @@
-# Install docker on server
+# ![Docker](https://go-skill-icons.vercel.app/api/icons?i=docker) Install docker on server
 This is a Quick guide repository, about how to install docker in the cloud server
 > - At first open the server terminal and reach in the root path and run this commands step by step
 ```
@@ -43,4 +43,11 @@ sudo usermod -aG docker $USER
 ```
 exit
 ```
+## Install docker compose
+```
+sudo apt install docker-compose-v2 -y
+```
+> Then check if docker compose successfully installed or not
+```
+docker-compose --version
 ```
